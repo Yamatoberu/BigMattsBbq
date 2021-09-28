@@ -1,0 +1,34 @@
+<head>
+  <title>Big Matt's BBQ</title>
+</head>
+<body>
+  <header>
+    <h1 (click)="homeClick()">Big Matt's BBQ</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <button (click)="homeClick()">Home</button>
+      </li>
+      <li>
+        <button (click)="menuClick()">Menu</button>
+      </li>
+      <li>
+        <button (click)="quoteClick()">Schedule an Event</button>
+      </li>
+      <li>
+        <button (click)="aboutClick()">About Us</button>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <app-home></app-home>
+    <app-menu></app-menu>
+    <app-quote></app-quote>
+    <app-about></app-about>
+  </main>
+  <footer>
+    Established 2021
+  </footer>
+</body>
+

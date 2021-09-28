@@ -1,0 +1,36 @@
+app-home{
+  display: block;
+}
+
+app-about{
+  display: none;
+}
+
+app-quote{
+  display: none;
+}
+
+app-menu{
+  display: none;
+}
+
+button {
+  background: #ededed;
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #9e9d9d;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+nav > ul > li{
+  display: inline;
+  padding: 5px;
+}
