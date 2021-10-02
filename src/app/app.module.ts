@@ -9,6 +9,7 @@ import { MenuComponent } from './menu/menu.component';
 import {RouterModule} from "@angular/router";
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutComponent,
     HomeComponent,
     MenuComponent,
-    NavBarComponent
+    NavBarComponent,
+    PageNotFoundComponent
   ],
     imports: [
         BrowserModule,
@@ -26,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
           { path: '', component: HomeComponent},
           { path: 'menu', component: MenuComponent},
           { path: 'quote', component: QuoteComponent},
-          { path: 'about', component: AboutComponent}
+          { path: 'about', component: AboutComponent},
+          { path: '**', component: PageNotFoundComponent}
         ]),
         NgbModule
     ],
