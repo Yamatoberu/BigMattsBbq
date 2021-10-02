@@ -6,6 +6,9 @@ import { QuoteComponent } from './quote/quote.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import {RouterModule} from "@angular/router";
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -14,11 +17,19 @@ import { MenuComponent } from './menu/menu.component';
     QuoteComponent,
     AboutComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    NavBarComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        RouterModule.forRoot([
+          { path: '', component: HomeComponent},
+          { path: 'menu', component: MenuComponent},
+          { path: 'quote', component: QuoteComponent},
+          { path: 'about', component: AboutComponent}
+        ]),
+        NgbModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

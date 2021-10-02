@@ -1,31 +1,14 @@
 <head>
   <title>Big Matt's BBQ</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body>
   <header>
-    <h1 (click)="homeClick()">Big Matt's BBQ</h1>
+    <h1>Big Matt's BBQ</h1>
   </header>
-  <nav>
-    <ul>
-      <li>
-        <button (click)="homeClick()">Home</button>
-      </li>
-      <li>
-        <button (click)="menuClick()">Menu</button>
-      </li>
-      <li>
-        <button (click)="quoteClick()">Schedule an Event</button>
-      </li>
-      <li>
-        <button (click)="aboutClick()">About Us</button>
-      </li>
-    </ul>
-  </nav>
+ <app-nav-bar></app-nav-bar>
   <main>
-    <app-home></app-home>
-    <app-menu></app-menu>
-    <app-quote></app-quote>
-    <app-about></app-about>
+    <router-outlet></router-outlet>
   </main>
   <footer>
     Established 2021
