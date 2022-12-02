@@ -1,0 +1,78 @@
+{
+    "menuCategories" : [
+        {
+            "category": "mains",
+            "items": [
+                {
+                    "name" : "Brisket",
+                    "price" : "20",
+                    "unit" : "pound"
+                },
+                {
+                    "name" : "Pulled Pork",
+                    "price" : "15",
+                    "unit" : "pound"
+                },
+                {
+                    "name" : "Pork Ribs",
+                    "price" : "35",
+                    "unit" : "rack"
+                },
+                {
+                    "name" : "Chicken Thighs",
+                    "price" : "4",
+                    "unit" : "each"
+                }
+            ]
+        },
+        {
+            "category" : "sides",
+            "items" : [
+                {
+                    "name" : "Dutch Oven Potatoes",
+                    "price" : "20",
+                    "unit" : "pan"
+                },
+                {
+                    "name" : "Dinner Rolls",
+                    "price" : "10",
+                    "unit" : "dozen"
+                },
+                {
+                    "name" : "Cheesy Garlic Rolls",
+                    "price" : "13",
+                    "unit" : "dozen"
+                },
+                {
+                    "name" : "Baked Beans",
+                    "price" : "20",
+                    "unit" : "pan"
+                },
+                {
+                    "name" : "Smoked Cornbread",
+                    "price" : "1",
+                    "unit" : "each"
+                }
+            ]
+        },
+        {
+            "category" : "desserts",
+            "items": [
+                {
+                    "name": "Cheesecake",
+                    "price" : "",
+                    "unit" : ""
+                },
+                {
+                    "name": "Texas Sheet Cake",
+                    "price" : "",
+                    "unit" : ""
+                },{
+                    "name": "Homemade Oreos",
+                    "price" : "",
+                    "unit" : ""
+                }
+            ]
+        }
+    ]
+}
