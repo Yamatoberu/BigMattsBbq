@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  MenuPath: string;
+
+  constructor() { 
+    this.MenuPath = "\\assets\\images\\Menu.png"
+  }
 
   ngOnInit(): void {
   }

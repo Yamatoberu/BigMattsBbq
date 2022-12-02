@@ -1,0 +1,21 @@
+td:first-child{
+    width: 200px;
+}
+
+td:nth-child(2){
+    text-align: right;
+}
+
+.menuCategory {
+    margin: 10px 10px 0px 0px;
+    width: 35%;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+h2{
+    text-align: center;
+}
+
