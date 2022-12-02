@@ -1,69 +1,51 @@
-<!-- <div id="MenuMains" class="menuCategory">
+<div id="MenuMains" class="menuCategory">
   <h2>MAINS</h2>
   <p>Typically plan on 1/2 pound per person</p>
   <hr />
-  <table>
+  <table *ngFor="let item of mainsList">
     <tr>
-      <td>Brisket</td>
-      <td>$20 / pound</td>
-    </tr>
-    <tr>
-      <td>Pulled Pork</td>
-      <td>$15 / pound</td>
-    </tr>
-    <tr>
-      <td>Pork Ribs</td>
-      <td>$35 / rack</td>
-    </tr>
-    <tr>
-      <td>Chicken Thighs</td>
-      <td>$4 / each</td>
+      <td>{{item.name}}</td>
+      <td>${{item.price}} / {{item.unit}}</td>
     </tr>
   </table>
 </div>
 
+<br />
+
 <div id="MenuSides" class="menuCategory">
   <h2>SIDES</h2>
   <hr />
-  <table>
+  <table *ngFor="let item of sidesList">
     <tr>
-      <td>Dutch Oven Potatoes</td>
-      <td>$20 / pan</td>
-    </tr>
-    <tr>
-      <td>Dinner Rolls</td>
-      <td>$10 / dozen</td>
-    </tr>
-    <tr>
-      <td>Cheesy Garlic Rolls</td>
-      <td>$13 / dozen</td>
-    </tr>
-    <tr>
-      <td>Baked Beans</td>
-      <td>$20 / pan</td>
-    </tr>
-    <tr>
-      <td>Smoked Cornbread</td>
-      <td>$1 / each</td>
+      <td>{{item.name}}</td>
+      <td>${{item.price}} / {{item.unit}}</td>
     </tr>
   </table>
 </div>
+
+<br />
 
 <div id="MenuDesserts" class="menuCategory">
   <h2>DESSERTS</h2>
   <p>Request quote for pricing</p>
   <hr>
-  <ul>
-    <li>Cheesecake</li>
-    <li>Texas Sheet Cake</li>
-    <li>Homemade Oreos</li>
-  </ul>
+  <table *ngFor="let item of dessertsList">
+    <tr>
+      <td>{{item.name}}</td>
+    </tr>
+  </table>
 </div>
+
+<br />
 
 <div>
   <h2>TO ORDER</h2>
-  <p>Send an email to bigmattsbarbecue@gmail.com to schedule your order</p>
+  <hr>
+  <ul>
+    <li>Email at <a href = "mailto: bigmattsbarbecue@gmail.com?subject = Website Order Submission">bigmattsbarbecue@gmail.com</a></li>
+    <li>Call or text <a href="tel:2088526267">208-852-6267</a></li>
+  </ul>
   <p>Flexible delivery options available</p>
-</div> -->
+</div>
 
-<img [src] ="MenuPath" width="100%">
+<!-- <img [src] ="MenuPath" width="100%"> -->
