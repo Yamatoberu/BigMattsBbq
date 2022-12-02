@@ -2,7 +2,7 @@
     {
         "name" : "Dutch Oven Potatoes",
         "price" : "20",
-        "unit" : "pan"
+        "unit" : "pan (serves 15)"
     },
     {
         "name" : "Dinner Rolls",
@@ -17,7 +17,7 @@
     {
         "name" : "Baked Beans",
         "price" : "20",
-        "unit" : "pan"
+        "unit" : "pan (serves 15)"
     },
     {
         "name" : "Smoked Cornbread",
