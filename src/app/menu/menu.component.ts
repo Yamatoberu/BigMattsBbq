@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import mains from 'src\\assets\\json\\mains.json';
-import sides from 'src\\assets\\json\\sides.json';
-import desserts from 'src\\assets\\json\\desserts.json';
+import mains from 'src/assets/json/mains.json';
+import sides from 'src/assets/json/sides.json';
+import desserts from 'src/assets/json/desserts.json';
 
 @Component({
   selector: 'app-menu',
