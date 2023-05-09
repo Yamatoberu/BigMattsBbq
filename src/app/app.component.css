@@ -8,3 +8,29 @@ body{
   color: white;
   margin: auto;
 }
+
+footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #36454f;
+  padding-left: 20%;
+}
+
+footer a img {
+  float: left;
+  width:5%;
+  margin: 10px;
+}
+
+img {
+  display: inline;
+  width: 20%;
+}
+
+.navBar {
+  float: right;
+  margin-top: 5%;
+}
