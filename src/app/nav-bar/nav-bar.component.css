@@ -6,3 +6,8 @@ ul{
 a {
     color: white;
 }
+
+.nav-pills > li > a.active, .nav-pills > li > a:hover{
+    background-color:#e85148 !important;
+    color:white !important;
+  }

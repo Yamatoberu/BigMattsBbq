@@ -1,18 +1,29 @@
 <head>
   <title>Big Matt's BBQ</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
 </head>
 <body>
   <header>
-    <img src="assets/images/Logo_No_Background.png" alt="Logo" height="200" width="200">
+    <a routerLink=""><img id="logo" src="assets/images/Logo_No_Background.png" alt="Logo" height="150em" width="150em"></a>
     <app-nav-bar class="navBar"></app-nav-bar>
   </header>
   <main>
     <router-outlet></router-outlet>
   </main>
   <footer>
-    Established 2021
-    <a href=""><img src="assets/images/intagram_logo.png" alt="Instagram"></a>
-    <a href=""><img src="assets/images/facebook_logo.png" alt="Facebook"></a>
+    <div id="contactUs">
+      <p>Contact Us</p>
+      <p><a href="tel:2088526267">Call Us</a></p>
+      <p><a href="tel:2088526267">Text Us</a></p>
+      <p><a href = "mailto: bigmattsbarbecue@gmail.com?subject = Website Order">Email Us</a></p>
+    </div>
+    <img src="assets/images/Logo_No_Background.png" alt="Logo" height="150em" width="150em">
+    <a class="social-btn" href="https://www.facebook.com/bigmattsbbq/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a class="social-btn" href="https://www.instagram.com/big_matts_bbq/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
   </footer>
 </body>
