@@ -5,6 +5,18 @@
 .photo {
     width: 40%;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.photo img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .content {
@@ -15,9 +27,13 @@
 }
 
 section {
-    width: 80em;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    border-bottom: solid 1px gray;
+    margin-left: 0%;
+}
+
+section:last-of-type {
+    border-bottom: none;
 }
 
 .row::after {

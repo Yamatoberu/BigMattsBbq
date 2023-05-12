@@ -10,6 +10,10 @@ import {RouterModule} from "@angular/router";
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FooterComponent } from './footer/footer.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { EquipmentComponent } from './equipment/equipment.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -20,7 +24,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     MenuComponent,
     NavBarComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FooterComponent,
+    ScheduleComponent,
+    EquipmentComponent,
+    BlogComponent
   ],
     imports: [
         BrowserModule,
@@ -29,6 +37,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
           { path: 'menu', component: MenuComponent},
           { path: 'quote', component: QuoteComponent},
           { path: 'about', component: AboutComponent},
+          { path: 'equipment', component: EquipmentComponent},
+          { path: 'schedule', component: ScheduleComponent},
+          { path: 'blog', component: BlogComponent},
           { path: '**', component: PageNotFoundComponent}
         ]),
         NgbModule
