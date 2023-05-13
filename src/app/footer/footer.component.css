@@ -87,3 +87,18 @@ footer {
         left: -10%;
     }
   }
+
+  /*-- Footer Responsive CSS --*/
+@media (max-width: 576px){
+  footer .social-btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 3em;
+  }
+
+  footer .social-btn i {
+    line-height: 40px;
+    font-size: 18px;
+  }
+  }
